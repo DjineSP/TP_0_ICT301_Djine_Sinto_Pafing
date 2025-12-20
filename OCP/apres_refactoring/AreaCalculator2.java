@@ -1,0 +1,7 @@
+package OCP.apres_refactoring;
+
+public class AreaCalculator2 {
+    public double calculateArea(Shape shape) {
+        return shape.calculateArea();
+    }
+}

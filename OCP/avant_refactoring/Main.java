@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         AreaCalculator calculator = new AreaCalculator();
 
-        Rectangle rectangle = new Rectangle(5, 10);
+        Rectangle rectangle = new Rectangle(4, 3);
         Circle circle = new Circle(7);
 
         double rectangleArea = calculator.calculateArea(rectangle);
